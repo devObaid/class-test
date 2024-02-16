@@ -1,0 +1,120 @@
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+
+}
+
+.nav-li{
+    list-style: none;
+}
+.nav-ul{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+} */
+.nav-img-cart{
+    padding: 8px;
+}
+.first-card{
+    margin-top: 35px;
+    display: flex;
+    margin-left: 25%;
+}
+@media (max-width : 1000px) {
+    .first-card{
+        margin-left: 20%;
+    }  
+}
+@media (max-width : 800px) {
+    .first-card{
+        margin-left: 10%;
+    }  
+}
+@media (max-width : 500px) {
+    .first-card{
+        margin-left: 0%;
+    }  
+}
+.first-card-left{
+margin-top : 75px;
+}
+.first-card-h3  > h2{
+    line-height: 45px;
+    letter-spacing: 5px;
+    font-weight: bolder
+}
+.first-card-p{
+    margin-top: 15px ;
+}
+.first-card-submit{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.form-control{
+
+    max-width: 15vw;
+}
+.btn{
+    
+    width: 8vw;
+    background-color: rgb(78, 161, 30);
+    color: white;
+}
+.first-card-right{
+    display: flex;
+    max-width: 50vw;
+}
+.first-card-right > img{
+    max-width: 75%;
+    height: 75%;
+    margin-left: 100px;
+    
+}
+.card{
+    width: 80vw ;
+    border: none;
+    margin-top: -40px;
+    margin-left: 25%;
+}
+@media (max-width : 1000px) {
+    .card{
+        margin-left: 20%;
+    }  
+}
+@media (max-width : 800px) {
+    .card{
+        margin-left: 10%;
+        margin-top: -15px;
+    }  
+}
+@media (max-width : 500px) {
+    .card{
+        margin-left: 0%;
+        margin-top: 0px;
+    }  
+}
+.third-card{
+    margin-top: 105px;
+}
+.third-card-p{
+    margin-left: 25%;
+    font-size: larger;
+    font-weight: 500;
+}
+.third-card-h3{
+    margin-left: 22%;
+    font-size: larger;
+    font-weight: 700;
+}
+.third-card-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;
+}
